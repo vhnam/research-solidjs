@@ -17,14 +17,22 @@ const Banner = () => {
               the plan. Simple, personal, and stress-free from start to finish.
             </p>
             <div class="flex items-center justify-center gap-4">
-              <a href="#" class="btn btn-primary">
+              <a
+                href="https://apps.apple.com/us/app/journeemate/id6754534126"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="/images/app-store.svg"
                   alt="Apple Store"
                   class="h-10"
                 />
               </a>
-              <a href="#" class="btn btn-secondary">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.duynguyen.journeemate"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src="/images/google-play.svg"
                   alt="Google Play"
