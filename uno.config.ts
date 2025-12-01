@@ -14,6 +14,9 @@ export default defineConfig({
     // ...
   ],
   theme: {
+    colors: {
+      primary: "oklch(78.86% 0.1208 185.59)",
+    },
     animation: {
       keyframes: {
         float: {

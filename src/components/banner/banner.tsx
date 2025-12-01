@@ -7,7 +7,7 @@ const Banner = () => {
         class="w-full h-full object-cover brightness-75"
       />
       <div class="px-4 lg:px-8 absolute top-0 left-0 w-full h-full py-8">
-        <div class="flex flex-col items-center justify-center gap-12">
+        <div class="flex flex-col items-center justify-center gap-10">
           <div class="space-y-4">
             <h2 class="text-3xl font-bold font-heading text-white">
               TRAVEL PLANNING, MADE EFFORTLESS
