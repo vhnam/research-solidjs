@@ -1,8 +1,13 @@
 const Banner = () => {
   return (
-    <div class="min-h-screen flex items-center justify-center bg-[url('/images/banner.png')] bg-cover bg-center">
-      <div class="px-4 lg:px-8">
-        <div class="flex flex-col items-center justify-center gap-20">
+    <div class="h-[calc(100vh-3.5rem)] flex items-center justify-center relative">
+      <img
+        src="/images/banner.png"
+        alt="Banner Background"
+        class="w-full h-full object-cover brightness-75"
+      />
+      <div class="px-4 lg:px-8 absolute top-0 left-0 w-full h-full py-8">
+        <div class="flex flex-col items-center justify-center gap-12">
           <div class="space-y-4">
             <h2 class="text-3xl font-bold font-heading text-white">
               TRAVEL PLANNING, MADE EFFORTLESS
@@ -32,7 +37,7 @@ const Banner = () => {
             <img
               src="/images/app-screenshot.png"
               alt="App Screenshot"
-              class="animate-[bounce_10s_ease-in-out_infinite]"
+              class="animate-float"
             />
           </div>
         </div>

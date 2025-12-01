@@ -14,8 +14,22 @@ export default defineConfig({
     // ...
   ],
   theme: {
-    colors: {
-      // ...
+    animation: {
+      keyframes: {
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-1rem)" },
+        },
+      },
+      durations: {
+        float: "3s",
+      },
+      timingFns: {
+        float: "ease-in-out",
+      },
+      counts: {
+        float: "infinite",
+      },
     },
   },
   presets: [
